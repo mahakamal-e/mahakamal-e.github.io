@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WeatherWise 
+       
+    </title>
+    <link rel="icon" href="images/icone2.png" type="image/x-icon">
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+<body>
+    <header>
+        
+        <nav>
+            <ul>
+                <li><a href="#home"><img src="images/icone2.png" alt="WeatherWise Icon" class="nav-icon"></a></li>
+                <li><a href="#features" class="tab">Features</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#team">Team</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="cover-section">
+        <img src="images/img5_.avif" alt="Cover Image">
+        <div class="cover-content">
+            <h1>WeatherWise</h1>
+            <p>Your ultimate weather companion</p>
+            <button class="btn" onclick="openVideoModal()">Explore the App</button>
+        </div>
+        <div id="videoModal" class="modal">
+            <div class="modal-content">
+                <span class="close" onclick="closeVideoModal()">&times;</span>
+                <video controls>
+                    <source src="videos/liveDemo.mov" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+        </div>
+    </section>
+
+    <section id="features">
+        <div class="feature-header">
+            <h1>Main Features</h1>
+        </div>
+        <div class="feature-container">
+            <div class="feature">
+                <img src="images/screen1.png" alt="Real-Time Weather Updates">
+                <div class="description">
+                    <h3>Real-Time Weather Updates</h3>
+                    <p>Stay informed with up-to-the-minute weather information for your location, including temperature, humidity, wind speed, and weather conditions.</p>
+                </div>
+            </div>
+            <div class="feature">
+                <img src="images/screen4.png" alt="Hourly Forecast">
+                <div class="description">
+                    <h3>Hourly Forecast</h3>
+                    <p>Plan your day effectively with our detailed hourly forecast, providing insights into temperature fluctuations and weather conditions throughout the day.</p>
+                </div>
+            </div>
+            <div class="feature">
+                <img src="images/screen3.png" alt="Interactive Map">
+                <div class="description">
+                    <h3>Interactive Map</h3>
+                    <p>Visualize weather patterns and forecasts with our interactive map feature. Easily zoom in and out to explore weather conditions across different regions.</p>
+                </div>
+            </div>
+            <div class="feature">
+                <img src="images/screen5.png" alt="Comprehensive Weekly Forecast">
+                <div class="description">
+                    <h3>Comprehensive Weekly Forecast</h3>
+                    <p>Stay ahead of the curve with our comprehensive weekly forecast, offering a detailed overview of expected weather conditions for the upcoming week.</p>
+                </div>
+            </div>
+            <div class="feature">
+                <img src="images/screen6.png" alt="User-Friendly Interface">
+                <div class="description">
+                    <h3>User-Friendly Interface</h3>
+                    <p>Navigate through weather data effortlessly with our intuitive user interface, designed to provide a seamless experience for users of all levels.</p>
+                </div>
+            </div>
+            <div class="feature">
+                <img src="images/screen7.png" alt="Informative Blog">
+                <div class="description">
+                    <h3>Informative Blog</h3>
+                    <p>Explore a wide range of weather-related topics and insights in our informative blog section.</p>
+                </div>
+            </div>
+            <div class="feature">
+                <br>
+                <img src="images/screen2.png" alt="Customizable Search">
+                <div class="description">
+                    <h3>Customizable Search</h3>
+                    <p>Effortlessly retrieve weather forecasts by simply entering the name of your desired city into the search bar. No need to navigate through complex menus.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about">
+        <h1>About WeatherWise</h1>
+        <h3>Story Behind WeatherWise</h3>
+        <div class="about-item">
+            <p>The inspiration for WeatherWise came from a personal experience. Last summer, while planning a hiking trip, I realized I wanted to make my own weatherwise weather application with my own design and features. This sparked the idea of creating a user-friendly weather application that could provide precise weather updates for any location, whether urban or remote.</p>
+            <p>WeatherWise was developed as a part of my Portfolio Project for ALX. The project served as a culmination of my learning and aimed to solve a real-world problem. Working on WeatherWise has been a journey of growth and learning, where I applied skills in web development, API integration, and user experience design.</p>
+        </div>
+    </section>
+
+    <section id="team">
+        <h2>Meet the Team</h2>
+        <img src="images/developer_icone.png" class="icon-image">
+        <h2>Maha Kamal</h2>
+        <h3>Full-Stack Developer</h3>
+        <a href="https://www.linkedin.com/in/maha-kamal-el/"><img src="images/linkedin-icon.png" alt="LinkedIn" class="social-image"></a>
+        <a href="https://github.com/mahakamal-e"><img src="images/github-icon.png" alt="GitHub" class="social-image"></a>
+        <a href="https://twitter.com/MahaKamal09"><img src="images/twitter-icone.png" alt="Twitter" class="social-image"></a>
+        <!-- Add more team members here -->
+    </section>
+
+    <footer id="contact">
+        <p>WeatherWise Repository</p>
+        <a href="https://github.com/mahakamal-e/WeatherWise"><img src="images/github-icon.png" alt="GitHub"></a>
+        <br>
+        <p>&copy; 2024 WeatherWise. All rights reserved.</p>
+    </footer>
+
+    <script src="scripts/main.js"></script> 
+</body>
+</html>
+
